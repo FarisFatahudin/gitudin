@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 200vh;
+    gap: 0.5rem;
+}
+.box {
+    height: 100%;
+    background-color: grey;
+}
+.box:nth-child(odd) {
+    flex: 1;
+}
